@@ -1,0 +1,1484 @@
+07/13/2023 01:08:05 PM: INFO: The program has been started ...
+07/13/2023 01:22:12 PM: INFO: SERVERS FROM RABBITMQ --> 3  SERVERS : [{'ip': '192.168.57.5', 'user': 'server'}, {'ip': '192.168.57.99', 'user': 'server'}, {'ip': '192.168.56.105', 'user': 'server'}]
+07/13/2023 01:22:12 PM: INFO: Created new server with IP = 192.168.57.5
+07/13/2023 01:22:12 PM: INFO: Added new server 192.168.57.5 in manager 
+07/13/2023 01:22:15 PM: ERROR: Can't connect server with ip : 192.168.57.99
+07/13/2023 01:22:15 PM: INFO: Created new server with IP = 192.168.56.105
+07/13/2023 01:22:15 PM: INFO: Added new server 192.168.56.105 in manager 
+07/13/2023 01:22:36 PM: INFO: JOBS FROM RABBITMQ --> 18  configuration : [{'filename': 'program3.py', 'autostart': False, 'autorestart': False, 'command': 'python3'}, {'filename': 'program4.py', 'autostart': False, 'autorestart': False, 'command': 'python3'}, {'filename': 'program1.py', 'autostart': False, 'autorestart': False, 'command': 'python3'}, {'filename': 'program2.py', 'autostart': False, 'autorestart': False, 'command': 'python3'}, {'filename': 'program5.py', 'autostart': False, 'autorestart': False, 'command': 'python3'}, {'filename': 'program6.py', 'autostart': False, 'autorestart': False, 'command': 'python3'}, {'filename': 'program7.py', 'autostart': False, 'autorestart': False, 'command': 'python3'}, {'filename': 'program8.py', 'autostart': False, 'autorestart': False, 'command': 'python3'}, {'filename': 'program9.py', 'autostart': False, 'autorestart': False, 'command': 'python3'}, {'filename': 'program10.py', 'autostart': False, 'autorestart': False, 'command': 'python3'}, {'filename': 'program11.py', 'autostart': False, 'autorestart': False, 'command': 'python3'}, {'filename': 'program12.py', 'autostart': False, 'autorestart': False, 'command': 'python3'}, {'filename': 'program13.py', 'autostart': False, 'autorestart': False, 'command': 'python3'}, {'filename': 'program14.py', 'autostart': False, 'autorestart': False, 'command': 'python3'}, {'filename': 'program15.py', 'autostart': False, 'autorestart': False, 'command': 'python3'}, {'filename': 'program16.py', 'autostart': False, 'autorestart': False, 'command': 'python3'}, {'filename': 'program17.py', 'autostart': False, 'autorestart': False, 'command': 'python3'}, {'filename': 'program18.py', 'autostart': False, 'autorestart': False, 'command': 'python3'}]
+07/13/2023 01:22:36 PM: INFO: Find the best server
+07/13/2023 01:22:37 PM: INFO: Find the best server
+07/13/2023 01:22:37 PM: INFO: Create log file for program3.py 
+07/13/2023 01:22:37 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:37 PM: INFO: Find the best server
+07/13/2023 01:22:37 PM: INFO: Create log file for program4.py 
+07/13/2023 01:22:37 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:37 PM: INFO: The following was produced: 
+ ['program_autorestart1: stopped\n', 'program_autorestart1: removed process group\n', 'program3: added process group\n']
+07/13/2023 01:22:37 PM: INFO: Find the best server
+07/13/2023 01:22:37 PM: INFO: Create log file for program1.py 
+07/13/2023 01:22:37 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:38 PM: INFO: Find the best server
+07/13/2023 01:22:38 PM: INFO: The following was produced: 
+ ['program4: added process group\n']
+07/13/2023 01:22:38 PM: INFO: Create log file for program2.py 
+07/13/2023 01:22:38 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:38 PM: INFO: The following was produced: 
+ ['program_autorestart2: stopped\n', 'program_autorestart2: removed process group\n', 'program1: added process group\n', 'program2: added process group\n']
+07/13/2023 01:22:38 PM: INFO: Find the best server
+07/13/2023 01:22:39 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:39 PM: INFO: Create log file for program5.py 
+07/13/2023 01:22:39 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:39 PM: INFO: Find the best server
+07/13/2023 01:22:39 PM: INFO: Started program3 on server 192.168.57.5 with PID : 2049
+07/13/2023 01:22:39 PM: INFO: Start thread
+07/13/2023 01:22:39 PM: INFO: Create log file for program6.py 
+07/13/2023 01:22:39 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:39 PM: INFO: Find the best server
+07/13/2023 01:22:39 PM: INFO: The following was produced: 
+ ['program5: added process group\n']
+07/13/2023 01:22:39 PM: INFO: Create log file for program7.py 
+07/13/2023 01:22:39 PM: INFO: Started program1 on server 192.168.56.105 with PID : 1816
+07/13/2023 01:22:39 PM: INFO: Start thread
+07/13/2023 01:22:39 PM: INFO: Checked 192.168.56.105 : program1 process
+07/13/2023 01:22:39 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:40 PM: INFO: The following was produced: 
+ ['program6: added process group\n']
+07/13/2023 01:22:40 PM: INFO: Find the best server
+07/13/2023 01:22:40 PM: INFO: Create log file for program8.py 
+07/13/2023 01:22:40 PM: INFO: The following was produced: 
+ ['program7: added process group\n']
+07/13/2023 01:22:40 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:40 PM: INFO: Started program4 on server 192.168.57.5 with PID : 2087
+07/13/2023 01:22:40 PM: INFO: Start thread
+07/13/2023 01:22:40 PM: INFO: Find the best server
+07/13/2023 01:22:40 PM: INFO: Create log file for program9.py 
+07/13/2023 01:22:41 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:41 PM: INFO: The following was produced: 
+ ['program8: added process group\n', 'program9: added process group\n']
+07/13/2023 01:22:41 PM: INFO: Find the best server
+07/13/2023 01:22:41 PM: INFO: Create log file for program10.py 
+07/13/2023 01:22:41 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:41 PM: INFO: Started program2 on server 192.168.56.105 with PID : 1840
+07/13/2023 01:22:41 PM: INFO: Start thread
+07/13/2023 01:22:41 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:41 PM: INFO: Find the best server
+07/13/2023 01:22:41 PM: INFO: Create log file for program11.py 
+07/13/2023 01:22:41 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:42 PM: INFO: The following was produced: 
+ ['program10: added process group\n', 'program11: added process group\n']
+07/13/2023 01:22:42 PM: INFO: Find the best server
+07/13/2023 01:22:42 PM: INFO: Create log file for program12.py 
+07/13/2023 01:22:42 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:42 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:42 PM: INFO: Started program5 on server 192.168.57.5 with PID : 2122
+07/13/2023 01:22:42 PM: INFO: Start thread
+07/13/2023 01:22:42 PM: INFO: Checked 192.168.57.5 : program5 process
+07/13/2023 01:22:42 PM: INFO: Find the best server
+07/13/2023 01:22:42 PM: INFO: Create log file for program13.py 
+07/13/2023 01:22:42 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:42 PM: INFO: The following was produced: 
+ ['program12: added process group\n']
+07/13/2023 01:22:43 PM: INFO: Find the best server
+07/13/2023 01:22:43 PM: INFO: Create log file for program14.py 
+07/13/2023 01:22:43 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:43 PM: INFO: Started program7 on server 192.168.56.105 with PID : 1869
+07/13/2023 01:22:43 PM: INFO: Start thread
+07/13/2023 01:22:43 PM: INFO: Checked 192.168.56.105 : program2 process
+07/13/2023 01:22:43 PM: INFO: The following was produced: 
+ ['program13: added process group\n']
+07/13/2023 01:22:43 PM: INFO: The following was produced: 
+ ['program14: added process group\n']
+07/13/2023 01:22:43 PM: INFO: Find the best server
+07/13/2023 01:22:43 PM: INFO: Create log file for program15.py 
+07/13/2023 01:22:43 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:44 PM: INFO: Started program8 on server 192.168.57.5 with PID : 2175
+07/13/2023 01:22:44 PM: INFO: Start thread
+07/13/2023 01:22:44 PM: INFO: Find the best server
+07/13/2023 01:22:44 PM: INFO: Checked 192.168.57.5 : program4 process
+07/13/2023 01:22:44 PM: INFO: Create log file for program16.py 
+07/13/2023 01:22:44 PM: INFO: The following was produced: 
+ ['program15: added process group\n']
+07/13/2023 01:22:44 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:44 PM: INFO: Started program10 on server 192.168.56.105 with PID : 1910
+07/13/2023 01:22:44 PM: INFO: Start thread
+07/13/2023 01:22:44 PM: INFO: The following was produced: 
+ ['program16: added process group\n']
+07/13/2023 01:22:45 PM: INFO: Find the best server
+07/13/2023 01:22:45 PM: INFO: Create log file for program17.py 
+07/13/2023 01:22:45 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:45 PM: INFO: Started program12 on server 192.168.57.5 with PID : 2222
+07/13/2023 01:22:45 PM: INFO: Start thread
+07/13/2023 01:22:45 PM: INFO: The following was produced: 
+ ['program17: added process group\n']
+07/13/2023 01:22:45 PM: INFO: Create log file for program18.py 
+07/13/2023 01:22:45 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:45 PM: INFO: Started program6 on server 192.168.56.105 with PID : 1931
+07/13/2023 01:22:45 PM: INFO: Start thread
+07/13/2023 01:22:46 PM: INFO: The following was produced: 
+ ['program18: added process group\n']
+07/13/2023 01:22:46 PM: INFO: Started program14 on server 192.168.56.105 with PID : 1944
+07/13/2023 01:22:46 PM: INFO: Start thread
+07/13/2023 01:22:46 PM: INFO: Checked 192.168.56.105 : program10 process
+07/13/2023 01:22:46 PM: INFO: Checked 192.168.56.105 : program1 process
+07/13/2023 01:22:46 PM: INFO: Checked 192.168.56.105 : program7 process
+07/13/2023 01:22:46 PM: INFO: Checked 192.168.56.105 : program6 process
+07/13/2023 01:22:47 PM: INFO: Started program9 on server 192.168.57.5 with PID : 2259
+07/13/2023 01:22:47 PM: INFO: Start thread
+07/13/2023 01:22:47 PM: INFO: Process 192.168.57.5 : program3 stopped working with statement EXITED
+07/13/2023 01:22:47 PM: INFO: The jos finished without any error 
+07/13/2023 01:22:47 PM: INFO: Start clear environment: 192.168.57.5
+07/13/2023 01:22:47 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:47 PM: INFO: Started program11 on server 192.168.56.105 with PID : 1945
+07/13/2023 01:22:47 PM: INFO: Start thread
+07/13/2023 01:22:47 PM: INFO: Checked 192.168.56.105 : program14 process
+07/13/2023 01:22:47 PM: INFO: Checked 192.168.56.105 : program11 process
+07/13/2023 01:22:48 PM: INFO: Started program15 on server 192.168.57.5 with PID : 2270
+07/13/2023 01:22:48 PM: INFO: Start thread
+07/13/2023 01:22:48 PM: INFO: Checked 192.168.56.105 : program2 process
+07/13/2023 01:22:49 PM: INFO: Started program13 on server 192.168.57.5 with PID : 2277
+07/13/2023 01:22:49 PM: INFO: Start thread
+07/13/2023 01:22:50 PM: INFO: Started program17 on server 192.168.57.5 with PID : 2278
+07/13/2023 01:22:50 PM: INFO: Start thread
+07/13/2023 01:22:50 PM: INFO: Checked 192.168.57.5 : program8 process
+07/13/2023 01:22:50 PM: INFO: Checked 192.168.57.5 : program9 process
+07/13/2023 01:22:50 PM: INFO: Checked 192.168.57.5 : program5 process
+07/13/2023 01:22:51 PM: INFO: Checked 192.168.56.105 : program10 process
+07/13/2023 01:22:51 PM: INFO: Process 192.168.56.105 : program1 stopped working with statement EXITED
+07/13/2023 01:22:51 PM: INFO: The jos finished without any error 
+07/13/2023 01:22:51 PM: INFO: Checked 192.168.56.105 : program6 process
+07/13/2023 01:22:51 PM: INFO: Process 192.168.56.105 : program7 stopped working with statement EXITED
+07/13/2023 01:22:51 PM: INFO: The jos finished without any error 
+07/13/2023 01:22:51 PM: INFO: Start clear environment: 192.168.56.105
+07/13/2023 01:22:51 PM: INFO: Start clear environment: 192.168.56.105
+07/13/2023 01:22:51 PM: INFO: Started program16 on server 192.168.57.5 with PID : 2279
+07/13/2023 01:22:51 PM: INFO: Start thread
+07/13/2023 01:22:51 PM: INFO: Checked 192.168.57.5 : program16 process
+07/13/2023 01:22:51 PM: INFO: Checked 192.168.57.5 : program13 process
+07/13/2023 01:22:51 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:51 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:52 PM: INFO: Checked 192.168.56.105 : program14 process
+07/13/2023 01:22:52 PM: INFO: Checked 192.168.56.105 : program11 process
+07/13/2023 01:22:53 PM: INFO: Process 192.168.56.105 : program2 stopped working with statement EXITED
+07/13/2023 01:22:53 PM: INFO: The jos finished without any error 
+07/13/2023 01:22:53 PM: INFO: Start clear environment: 192.168.56.105
+07/13/2023 01:22:53 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:53 PM: INFO: Started program18 on server 192.168.57.5 with PID : 2280
+07/13/2023 01:22:53 PM: INFO: Start thread
+07/13/2023 01:22:53 PM: INFO: Checked 192.168.57.5 : program15 process
+07/13/2023 01:22:53 PM: INFO: Checked 192.168.57.5 : program12 process
+07/13/2023 01:22:53 PM: INFO: Process 192.168.57.5 : program4 stopped working with statement EXITED
+07/13/2023 01:22:53 PM: INFO: The jos finished without any error 
+07/13/2023 01:22:53 PM: INFO: Checked 192.168.57.5 : program17 process
+07/13/2023 01:22:53 PM: INFO: Checked 192.168.57.5 : program18 process
+07/13/2023 01:22:53 PM: INFO: Start clear environment: 192.168.57.5
+07/13/2023 01:22:53 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:55 PM: INFO: Process 192.168.57.5 : program8 stopped working with statement EXITED
+07/13/2023 01:22:55 PM: INFO: The jos finished without any error 
+07/13/2023 01:22:55 PM: INFO: Checked 192.168.57.5 : program9 process
+07/13/2023 01:22:55 PM: INFO: Process 192.168.57.5 : program5 stopped working with statement EXITED
+07/13/2023 01:22:55 PM: INFO: The jos finished without any error 
+07/13/2023 01:22:55 PM: INFO: Start clear environment: 192.168.57.5
+07/13/2023 01:22:55 PM: INFO: Start clear environment: 192.168.57.5
+07/13/2023 01:22:55 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:55 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:56 PM: INFO: Process 192.168.56.105 : program10 stopped working with statement EXITED
+07/13/2023 01:22:56 PM: INFO: The jos finished without any error 
+07/13/2023 01:22:56 PM: INFO: Process 192.168.56.105 : program6 stopped working with statement EXITED
+07/13/2023 01:22:56 PM: INFO: The jos finished without any error 
+07/13/2023 01:22:56 PM: INFO: Start clear environment: 192.168.56.105
+07/13/2023 01:22:56 PM: INFO: Start clear environment: 192.168.56.105
+07/13/2023 01:22:56 PM: INFO: Checked 192.168.57.5 : program16 process
+07/13/2023 01:22:56 PM: INFO: Checked 192.168.57.5 : program13 process
+07/13/2023 01:22:57 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:57 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:57 PM: INFO: Process 192.168.56.105 : program14 stopped working with statement EXITED
+07/13/2023 01:22:57 PM: ERROR: The jos finished with following error :  Traceback (most recent call last):
+  File "/home/server/testsupervisor/program14.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:22:57 PM: INFO: Process 192.168.56.105 : program11 stopped working with statement EXITED
+07/13/2023 01:22:57 PM: INFO: The jos finished without any error 
+07/13/2023 01:22:57 PM: INFO: Start clear environment: 192.168.56.105
+07/13/2023 01:22:57 PM: INFO: Start clear environment: 192.168.56.105
+07/13/2023 01:22:58 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:58 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:58 PM: INFO: Process 192.168.57.5 : program15 stopped working with statement EXITED
+07/13/2023 01:22:58 PM: ERROR: The jos finished with following error :  Traceback (most recent call last):
+  File "/home/server/testsupervisor/program15.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:22:58 PM: INFO: Process 192.168.57.5 : program12 stopped working with statement EXITED
+07/13/2023 01:22:58 PM: INFO: The jos finished without any error 
+07/13/2023 01:22:58 PM: INFO: Checked 192.168.57.5 : program18 process
+07/13/2023 01:22:58 PM: INFO: Checked 192.168.57.5 : program17 process
+07/13/2023 01:22:58 PM: INFO: Start clear environment: 192.168.57.5
+07/13/2023 01:22:58 PM: INFO: Start clear environment: 192.168.57.5
+07/13/2023 01:22:58 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:22:58 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:23:00 PM: INFO: Process 192.168.57.5 : program9 stopped working with statement EXITED
+07/13/2023 01:23:00 PM: INFO: The jos finished without any error 
+07/13/2023 01:23:00 PM: INFO: Start clear environment: 192.168.57.5
+07/13/2023 01:23:00 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:23:01 PM: INFO: Process 192.168.57.5 : program16 stopped working with statement EXITED
+07/13/2023 01:23:01 PM: ERROR: The jos finished with following error :  Traceback (most recent call last):
+  File "/home/server/testsupervisor/program16.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:23:01 PM: INFO: Process 192.168.57.5 : program13 stopped working with statement EXITED
+07/13/2023 01:23:01 PM: INFO: The jos finished without any error 
+07/13/2023 01:23:02 PM: INFO: Start clear environment: 192.168.57.5
+07/13/2023 01:23:02 PM: INFO: Start clear environment: 192.168.57.5
+07/13/2023 01:23:02 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:23:02 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:23:03 PM: INFO: Process 192.168.57.5 : program17 stopped working with statement EXITED
+07/13/2023 01:23:03 PM: ERROR: The jos finished with following error :  Traceback (most recent call last):
+  File "/home/server/testsupervisor/program17.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:23:03 PM: INFO: Process 192.168.57.5 : program18 stopped working with statement EXITED
+07/13/2023 01:23:03 PM: ERROR: The jos finished with following error :  Traceback (most recent call last):
+  File "/home/server/testsupervisor/program18.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:23:03 PM: INFO: Start clear environment: 192.168.57.5
+07/13/2023 01:23:03 PM: INFO: Start clear environment: 192.168.57.5
+07/13/2023 01:23:03 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:23:03 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:24:22 PM: INFO: JOBS FROM RABBITMQ --> 2  configuration : [{'filename': 'program_autorestart1.py', 'autostart': False, 'autorestart': True, 'command': 'python3'}, {'filename': 'program_autorestart2.py', 'autostart': False, 'autorestart': True, 'command': 'python3'}]
+07/13/2023 01:24:22 PM: INFO: Find the best server
+07/13/2023 01:24:23 PM: INFO: Find the best server
+07/13/2023 01:24:23 PM: INFO: Create log file for program_autorestart1.py 
+07/13/2023 01:24:23 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:24:23 PM: INFO: Create log file for program_autorestart2.py 
+07/13/2023 01:24:23 PM: INFO: The following was produced: 
+ []
+07/13/2023 01:24:23 PM: INFO: The following was produced: 
+ ['program3: stopped\n', 'program3: removed process group\n', 'program4: stopped\n', 'program4: removed process group\n', 'program5: stopped\n', 'program5: removed process group\n', 'program8: stopped\n', 'program8: removed process group\n', 'program9: stopped\n', 'program9: removed process group\n', 'program12: stopped\n', 'program12: removed process group\n', 'program13: stopped\n', 'program13: removed process group\n', 'program15: stopped\n', 'program15: removed process group\n', 'program16: stopped\n', 'program16: removed process group\n', 'program17: stopped\n', 'program17: removed process group\n', 'program18: stopped\n', 'program18: removed process group\n', 'program_autorestart1: added process group\n']
+07/13/2023 01:24:24 PM: INFO: The following was produced: 
+ ['program_autorestart2: added process group\n']
+07/13/2023 01:24:25 PM: INFO: Started program_autorestart1 on server 192.168.57.5 with PID : 2393
+07/13/2023 01:24:25 PM: INFO: Start thread
+07/13/2023 01:24:26 PM: INFO: Started program_autorestart2 on server 192.168.57.5 with PID : 2397
+07/13/2023 01:24:26 PM: INFO: Start thread
+07/13/2023 01:24:26 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:24:26 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:24:31 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:24:31 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:24:36 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:24:36 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:24:41 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:24:41 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:24:46 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:24:46 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:24:51 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart1 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:24:51 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart2 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:24:54 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:24:54 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:24:59 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:24:59 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:25:04 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:25:04 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:25:09 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:25:09 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:25:14 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart1 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:25:14 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart2 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:25:17 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:25:17 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:25:22 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:25:22 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:25:27 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:25:27 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:25:32 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:25:32 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:25:37 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart1 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:25:37 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart2 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:25:40 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:25:40 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:25:45 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:25:45 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:25:50 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:25:50 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:25:55 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:25:55 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:26:00 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart1 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:26:00 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart2 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:26:03 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:26:03 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:26:08 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:26:09 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:26:13 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:26:14 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:26:18 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:26:19 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:26:23 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart1 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:26:24 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart2 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:26:26 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:26:27 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:26:32 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:26:32 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:26:37 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:26:37 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:26:42 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:26:42 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:26:47 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart1 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:26:47 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart2 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:26:50 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:26:50 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:26:55 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:26:55 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:27:00 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:27:00 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:27:05 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:27:05 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:27:10 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart1 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:27:10 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart2 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:27:13 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:27:13 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:27:18 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:27:18 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:27:23 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:27:23 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:27:28 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:27:28 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:27:33 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart1 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:27:33 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart2 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:27:36 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:27:36 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:27:41 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:27:41 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:27:46 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:27:46 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:27:51 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:27:51 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:27:56 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart1 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:27:56 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart2 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:27:59 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:27:59 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:28:04 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:28:04 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:28:09 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:28:09 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:28:14 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:28:14 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:28:19 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart1 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:28:19 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart2 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:28:22 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:28:22 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:28:27 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:28:27 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:28:32 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:28:32 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:28:37 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:28:37 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:28:42 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart1 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart1.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:28:42 PM: ERROR: The following message was catch from 192.168.57.5.program_autorestart2 : Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+Traceback (most recent call last):
+  File "/home/server/testsupervisor/program_autorestart2.py", line 22, in <module>
+    raise Exception("Iau 10 azi")
+Exception: Iau 10 azi
+
+07/13/2023 01:28:45 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:28:45 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:28:50 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:28:50 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:28:55 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:28:55 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process
+07/13/2023 01:29:00 PM: INFO: Checked 192.168.57.5 : program_autorestart1 process
+07/13/2023 01:29:00 PM: INFO: Checked 192.168.57.5 : program_autorestart2 process

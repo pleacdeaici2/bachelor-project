@@ -1,2 +1,2 @@
-# bachelor-project
-my bachelor project
+# Licenta
+Licenta 2023 

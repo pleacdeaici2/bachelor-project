@@ -1,0 +1,110 @@
+[{
+	"filename": "program3.py",
+	"autostart": false,
+	"autorestart": false,
+	"command": "python3"
+},
+{
+	"filename": "program4.py",
+	"autostart": false,
+	"autorestart": false,
+	"command": "python3"
+},
+    {
+      "filename": "program1.py",
+      "autostart": false,
+      "autorestart": false,
+      "command": "python3"
+  },
+  {
+      "filename": "program2.py",
+      "autostart": false,
+      "autorestart": false,
+      "command": "python3"
+  },
+      {
+      "filename": "program5.py",
+      "autostart": false,
+      "autorestart": false,
+      "command": "python3"
+  },
+  {
+      "filename": "program6.py",
+      "autostart": false,
+      "autorestart": false,
+      "command": "python3"
+  },
+      {
+      "filename": "program7.py",
+      "autostart": false,
+      "autorestart": false,
+      "command": "python3"
+  },
+  {
+      "filename": "program8.py",
+      "autostart": false,
+      "autorestart": false,
+      "command": "python3"
+  },
+  {
+      "filename": "program9.py",
+      "autostart": false,
+      "autorestart": false,
+      "command": "python3"
+  },
+      {
+      "filename": "program10.py",
+      "autostart": false,
+      "autorestart": false,
+      "command": "python3"
+  },
+  {
+      "filename": "program11.py",
+      "autostart": false,
+      "autorestart": false,
+      "command": "python3"
+  },
+      {
+      "filename": "program12.py",
+      "autostart": false,
+      "autorestart": false,
+      "command": "python3"
+  },
+  {
+      "filename": "program13.py",
+      "autostart": false,
+      "autorestart": false,
+      "command": "python3"
+  },
+  {
+      "filename": "program14.py",
+      "autostart": false,
+      "autorestart": false,
+      "command": "python3"
+  },
+      {
+      "filename": "program15.py",
+      "autostart": false,
+      "autorestart": false,
+      "command": "python3"
+  },
+  {
+      "filename": "program16.py",
+      "autostart": false,
+      "autorestart": false,
+      "command": "python3"
+  },
+      {
+      "filename": "program17.py",
+      "autostart": false,
+      "autorestart": false,
+      "command": "python3"
+  },
+  {
+      "filename": "program18.py",
+      "autostart": false,
+      "autorestart": false,
+      "command": "python3"
+  }
+
+]

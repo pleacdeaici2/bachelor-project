@@ -1,0 +1,14 @@
+[
+  {
+      "filename": "program_autorestart1.py",
+      "autostart": false,
+      "autorestart": true,
+      "command": "python3"
+  },
+  {
+      "filename": "program_autorestart2.py",
+      "autostart": false,
+      "autorestart": true,
+      "command": "python3"
+  }
+]
